@@ -1,5 +1,5 @@
 {
-    "name": "fzaninotto/faker",
+    "name": "nigam214/faker",
     "type": "library",
     "description": "Faker is a PHP library that generates fake data for you.",
     "keywords": [
@@ -11,6 +11,10 @@
     "authors": [
         {
             "name": "François Zaninotto"
+        },
+        {
+            "name": "Ashish Nigam",
+            "email": "ashish.nigam@gmail.com"
         }
     ],
     "require": {

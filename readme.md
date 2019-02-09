@@ -10,6 +10,10 @@ Faker requires PHP >= 5.3.3.
 
 [![Monthly Downloads](https://poser.pugx.org/fzaninotto/faker/d/monthly.png)](https://packagist.org/packages/fzaninotto/faker) [![Build Status](https://travis-ci.org/fzaninotto/Faker.svg?branch=master)](https://travis-ci.org/fzaninotto/Faker) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/eceb78a9-38d4-4ad5-8b6b-b52f323e3549/mini.png)](https://insight.sensiolabs.com/projects/eceb78a9-38d4-4ad5-8b6b-b52f323e3549)
 
+### So whats New?
+
+This package is forked from https://github.com/fzaninotto/Faker and added hi_IN Provider. Package name has been changed to make it a new project.
+
 # Table of Contents
 
 - [Installation](#installation)
@@ -48,7 +52,7 @@ Faker requires PHP >= 5.3.3.
 ## Installation
 
 ```sh
-composer require fzaninotto/faker
+composer require nigam214/faker
 ```
 
 ## Basic Usage
@@ -419,7 +423,7 @@ for ($i = 0; $i < 10; $i++) {
   // Geneviève Marchal
 ```
 
-You can check available Faker locales in the source code, [under the `Provider` directory](https://github.com/fzaninotto/Faker/tree/master/src/Faker/Provider). The localization of Faker is an ongoing process, for which we need your help. Don't hesitate to create localized providers to your own locale and submit a PR!
+You can check available Faker locales in the source code, [under the `Provider` directory](https://github.com/nigam214/Faker/tree/master/src/Faker/Provider). The localization of Faker is an ongoing process, for which we need your help. Don't hesitate to create localized providers to your own locale and submit a PR!
 
 ## Populating Entities Using an ORM or an ODM
 
