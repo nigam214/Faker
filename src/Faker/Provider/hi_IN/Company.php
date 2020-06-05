@@ -214,7 +214,7 @@ class Company extends \Faker\Provider\Company
             $result[] = static::randomElement($word);
         }
 
-        return join($result, ' ');
+        return join(' ', $result);
     }
 
     /**
@@ -227,6 +227,6 @@ class Company extends \Faker\Provider\Company
             $result[] = static::randomElement($word);
         }
 
-        return join($result, ' ');
+        return join(' ', $result);
     }
 }
